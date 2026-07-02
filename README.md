@@ -31,7 +31,22 @@ cp -r thinkwithv-skills/skills/<skill-name> ~/.claude/skills/
 
 **claude.ai** — zip a skill folder and upload it under **Settings → Capabilities → Skills**.
 
-This repo ships a `.claude-plugin/plugin.json`, so it also works as a Claude Code plugin.
+**As a Claude Code plugin** — this repo is also a plugin marketplace:
+
+```
+/plugin marketplace add vanessachang-dev/thinkwithv-skills
+/plugin install thinkwithv-skills@thinkwithv-skills
+```
+
+## Portability
+
+These are plain [Agent Skills](https://code.claude.com/docs/en/skills) — one `SKILL.md` per skill, YAML frontmatter (`name` + `description`) plus a markdown body. None of them use Claude-Code-only features (`context: fork`, `allowed-tools`), so they read cleanly in any tool that honors the Agent Skills format. For guaranteed cross-agent use (e.g. Codex), pair a skill with an `AGENTS.md` at the project level — that's the layer every agent reads.
+
+_New skills that rely on Claude-Code-only frontmatter should state the constraint in their `description`._
+
+## Maintainer
+
+`skills-manifest.json` is the publish boundary — only skills listed there ship. `scripts/sync-from-vault.sh` regenerates the `source: vault` skills from the private vault (`TWV_VAULT_SKILLS`); `source: repo` skills are canonical here. Run the sync, then `git status` to see drift.
 
 ## License
 

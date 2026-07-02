@@ -1,0 +1,15 @@
+{
+  "name": "thinkwithv-skills",
+  "owner": {
+    "name": "Vanessa Chang",
+    "url": "https://vanessachang.com"
+  },
+  "plugins": [
+    {
+      "name": "thinkwithv-skills",
+      "source": "./",
+      "description": "Agent skills from V's AI OS — Think with V.",
+      "version": "0.2.0"
+    }
+  ]
+}

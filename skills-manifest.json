@@ -1,0 +1,12 @@
+{
+  "_comment": "Publish boundary for thinkwithv-skills. The 'public' half of the public/private split — only skills listed here ship. 'source: vault' skills are synced from the private vault by scripts/sync-from-vault.sh; 'source: repo' skills are canonical in this repo (e.g. multi-file skills the flat vault can't hold until the directory-per-skill migration).",
+  "skills": [
+    { "name": "fable-prompt-builder", "category": null, "source": "vault", "vaultFile": "fable-prompt-builder.md" },
+    { "name": "silent-assumption", "category": "critical-thinking", "source": "vault", "vaultFile": "silent-assumption.md" },
+    { "name": "distinguish", "category": "critical-thinking", "source": "vault", "vaultFile": "distinguish.md" },
+    { "name": "grant-then-test", "category": "critical-thinking", "source": "vault", "vaultFile": "grant-then-test.md" },
+    { "name": "negative-claim", "category": "critical-thinking", "source": "vault", "vaultFile": "negative-claim.md" },
+    { "name": "abstract-vs-concrete", "category": "critical-thinking", "source": "vault", "vaultFile": "abstract-vs-concrete.md" },
+    { "name": "chat-synopsis", "category": null, "source": "repo", "note": "multi-file (SKILL.md + commands + references); canonical here until the vault goes directory-per-skill" }
+  ]
+}
