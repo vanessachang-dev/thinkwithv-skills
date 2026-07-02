@@ -1,6 +1,6 @@
 {
   "name": "thinkwithv-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Agent skills from V's AI OS — Think with V.",
   "author": {
     "name": "Vanessa Chang",
@@ -9,6 +9,12 @@
   "homepage": "https://vanessachang.com",
   "license": "MIT",
   "skills": [
-    "./skills/fable-prompt-builder"
+    "./skills/fable-prompt-builder",
+    "./skills/chat-synopsis",
+    "./skills/critical-thinking/silent-assumption",
+    "./skills/critical-thinking/distinguish",
+    "./skills/critical-thinking/grant-then-test",
+    "./skills/critical-thinking/negative-claim",
+    "./skills/critical-thinking/abstract-vs-concrete"
   ]
 }

@@ -6,7 +6,19 @@ Small, composable, model-agnostic skills I actually use. My Obsidian vault is th
 
 ## Skills
 
-- **[fable-prompt-builder](./skills/fable-prompt-builder/SKILL.md)** — Turn a rough task description into one goal-focused, ready-to-paste prompt for Claude Fable 5. It collects the right context and boundaries and assembles the prompt, resisting the over-instruction that degrades a more capable model's output.
+### Prompting
+- **[fable-prompt-builder](./skills/fable-prompt-builder/SKILL.md)** — Turn a rough task description into one goal-focused, ready-to-paste prompt for Claude Fable 5.
+
+### Critical thinking
+Small reasoning primitives — each surfaces or tests one move.
+- **[silent-assumption](./skills/critical-thinking/silent-assumption/SKILL.md)** — Surface 1–3 unstated assumptions a claim depends on, then test each.
+- **[distinguish](./skills/critical-thinking/distinguish/SKILL.md)** — Pull apart two concepts being used as one (or split two that are really one).
+- **[grant-then-test](./skills/critical-thinking/grant-then-test/SKILL.md)** — Stipulate the contested claim is true, then test whether the argument still stands.
+- **[negative-claim](./skills/critical-thinking/negative-claim/SKILL.md)** — Surface what you'd have to deny to hold a position, and the cost of each denial.
+- **[abstract-vs-concrete](./skills/critical-thinking/abstract-vs-concrete/SKILL.md)** — Given a claim at one rung of the abstraction ladder, propose the paired move at the other.
+
+### Documentation
+- **[chat-synopsis](./skills/chat-synopsis/SKILL.md)** — Capture a Claude conversation as a durable markdown artifact in your own thinking system.
 
 ## Install
 
@@ -14,14 +26,12 @@ Small, composable, model-agnostic skills I actually use. My Obsidian vault is th
 
 ```bash
 git clone https://github.com/vanessachang-dev/thinkwithv-skills
-cp -r thinkwithv-skills/skills/fable-prompt-builder ~/.claude/skills/
+cp -r thinkwithv-skills/skills/<skill-name> ~/.claude/skills/
 ```
 
 **claude.ai** — zip a skill folder and upload it under **Settings → Capabilities → Skills**.
 
 This repo ships a `.claude-plugin/plugin.json`, so it also works as a Claude Code plugin.
-
-Once installed, just describe your task — the skill assembles the Fable-ready prompt for you.
 
 ## License
 
