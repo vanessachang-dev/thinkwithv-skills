@@ -31,6 +31,10 @@ while IFS=$'\t' read -r name category; do
   rm -rf "$dest"
   mkdir -p "$dest"
   cp -R "$src/." "$dest/"
+  # Don't publish internal/dev artifacts (revert archives, caches, OS cruft).
+  rm -rf "$dest/_archive"
+  find "$dest" -type d -name '__pycache__' -exec rm -rf {} + 2>/dev/null || true
+  find "$dest" -name '.DS_Store' -delete 2>/dev/null || true
   echo "synced  $name  <-  $name/"
   synced=$((synced + 1))
 done < <(jq -r '.skills[] | select(.source=="vault") | [.name, (.category // "")] | @tsv' "$MANIFEST")
