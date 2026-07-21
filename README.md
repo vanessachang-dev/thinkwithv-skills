@@ -20,6 +20,9 @@ Small reasoning primitives — each surfaces or tests one move.
 ### Documentation
 - **[chat-synopsis](./skills/chat-synopsis/SKILL.md)** — Capture a Claude conversation as a durable markdown artifact in your own thinking system.
 
+### Communication
+- **[i-have-adhd](./skills/i-have-adhd/SKILL.md)** — Shape output so an ADHD brain can act on it: lead with the action, number the steps, restate state, concrete time estimates, visible wins, no preamble. Ported from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT) — see [Third-party skills](#third-party-skills).
+
 ## Install
 
 **Claude Code** — clone the repo and drop a skill folder into your skills directory:
@@ -48,9 +51,15 @@ _New skills that rely on Claude-Code-only frontmatter should state the constrain
 
 `skills-manifest.json` is the publish boundary — only skills listed there ship. `scripts/sync-from-vault.sh` regenerates the `source: vault` skills from the private vault (`TWV_VAULT_SKILLS`); `source: repo` skills are canonical here. Run the sync, then `git status` to see drift.
 
+## Third-party skills
+
+Most skills here are mine. Where one isn't, it says so, its upstream `LICENSE` travels in the skill folder, and the `SKILL.md` carries a provenance note naming what's upstream text and what I changed.
+
+- **i-have-adhd** — ported from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd), MIT © 2026 Ayoub Ghriss, which credits *The Adult ADHD Tool Kit* by J. Russell Ramsay and Anthony L. Rostain. Rules and structure are upstream; my additions reconcile it with my own always-on output rules.
+
 ## License
 
-MIT © Vanessa Chang
+MIT © Vanessa Chang, except third-party skills noted above, which retain their upstream MIT license and copyright.
 
 ---
 
