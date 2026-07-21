@@ -2,6 +2,7 @@
 name: negative-claim
 description: Contrapositive of falsify — given a position, surface what V would have to *deny* to hold it, and the cost of denying each thing. Useful for value-laden claims where falsifiability is awkward (you can't falsify "I value craft over speed" but you can name what holding that position commits V to denying). Triggers — "what would I have to give up?", "what does this commit me to?", "what's the cost of holding this?", or when V is staking out a position whose downstream commitments she hasn't traced. NOT a generic counterargument generator (use steelman via critical-thinking Mode 2), NOT for testing claims with empirical content (use falsify). Callable by Fry / thinking-partner / V directly.
 tags: [ai-os, skills, conceptual-analysis, fry, thinking, position-clarification]
+last-verified: 2026-07-20
 ---
 
 # Negative Claim

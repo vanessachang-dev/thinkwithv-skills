@@ -1,6 +1,7 @@
 ---
 name: fable-prompt-builder
 description: Turn a rough task description into a ready-to-paste prompt for Claude Fable 5. Use this skill whenever the user mentions Fable, wants help writing or improving a prompt for a more capable model, or describes a large, complex, or high-stakes task they plan to hand off — an audit, a diagnosis, a review, a big decision, a synthesis of many sources, a long multi-step job, or building a product from their expertise — even if they don't say the word "prompt."
+last-verified: 2026-07-20
 ---
 
 # Fable Prompt Builder

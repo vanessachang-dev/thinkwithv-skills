@@ -2,6 +2,7 @@
 name: grant-then-test
 description: Dialectical concession move — given an argument V is fighting on what may be a side-issue, stipulate the contested claim is true and test whether V's actual position survives. Often dissolves disagreements by revealing the contested point isn't load-bearing for V's main position. Triggers — "let's assume X is true", "grant me X", "even if you're right about Y", "set aside whether...", or when V is defending a flank that may not matter to her core position. NOT for genuine empirical disputes where the contested claim IS the main thing (use falsify instead). Callable by Fry / thinking-partner / V directly.
 tags: [ai-os, skills, conceptual-analysis, fry, thinking, dialectic]
+last-verified: 2026-07-20
 ---
 
 # Grant Then Test

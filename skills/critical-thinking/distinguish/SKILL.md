@@ -2,6 +2,7 @@
 name: distinguish
 description: Disambiguation primitive for conceptual analysis — when V is using two (or more) concepts as if they were one, or two as if they were different when they're not, distinguish surfaces the operations each concept performs and shows where the conflation produces harm. Triggers — "are these the same?", "I keep using X and Y interchangeably", "what's the difference between X and Y?", "I think X is just Y", or when V's argument depends on a distinction she hasn't drawn. Output is a structured disambiguation, not a question. NOT for definition lookup (use a dictionary), NOT for taxonomic categorization (use taxonomy-test, future), NOT for value-laden "which is better" questions. Callable standalone or by Fry / thinking-partner.
 tags: [ai-os, skills, conceptual-analysis, fry, thinking]
+last-verified: 2026-07-20
 ---
 
 # Distinguish
