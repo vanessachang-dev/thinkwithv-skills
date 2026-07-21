@@ -2,6 +2,7 @@
   "_comment": "Publish boundary for thinkwithv-skills. Only skills listed here ship. 'source: vault' skills are synced from the private vault's <name>/ directory by scripts/sync-from-vault.sh (the vault is directory-per-skill); 'source: repo' skills are canonical in this repo.",
   "skills": [
     { "name": "fable-prompt-builder", "category": null, "source": "vault" },
+    { "name": "i-have-adhd", "category": null, "source": "vault", "note": "third-party: ported from ayghri/i-have-adhd (MIT). LICENSE travels with the skill dir." },
     { "name": "silent-assumption", "category": "critical-thinking", "source": "vault" },
     { "name": "distinguish", "category": "critical-thinking", "source": "vault" },
     { "name": "grant-then-test", "category": "critical-thinking", "source": "vault" },

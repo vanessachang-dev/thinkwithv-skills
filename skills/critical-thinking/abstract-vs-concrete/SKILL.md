@@ -2,6 +2,7 @@
 name: abstract-vs-concrete
 description: Ladder-climbing primitive — given a claim at one rung of the abstraction ladder, propose the paired move at the other rung. When V's high (frameworks, positioning, theoretical claims), abstract-vs-concrete demands one paragraph of concrete instantiation. When V's low (specific tasks, examples, single cases), it asks for the framework-level statement. Triggers — "is this too abstract?", "ground this for me", "what's the example?", "what's the principle?", "lift this", "drop this". Tightly paired with distill but operates on the vertical axis (rung-climbing) where distill is horizontal (convergence). NOT a generic "give me an example" tool — the discipline is *paired moves* between rungs, not infinite expansion. Callable by Fry / thinking-partner / V directly.
 tags: [ai-os, skills, conceptual-analysis, fry, thinking, abstraction-ladder]
+last-verified: 2026-07-20
 ---
 
 # Abstract vs Concrete

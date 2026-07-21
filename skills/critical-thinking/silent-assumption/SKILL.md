@@ -2,6 +2,7 @@
 name: silent-assumption
 description: Surface 1-3 unstated assumptions a claim or argument depends on, then test each. Triggers — "what am I assuming?", "what's the assumption underneath this?", "where am I taking something for granted?", or contextually when V's argument depends on something she hasn't said. Output is a structured list of assumptions plus what would happen if each were false. NOT for explicit critique (use critical-thinking dialectical mode), NOT for falsifying the claim itself (use falsify), NOT for dictionary-style premise unpacking (this finds *load-bearing* unstated dependencies, not surface premises). Callable by Fry / thinking-partner / V directly.
 tags: [ai-os, skills, conceptual-analysis, fry, thinking]
+last-verified: 2026-07-20
 ---
 
 # Silent Assumption
